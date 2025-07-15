@@ -1,7 +1,16 @@
-# Ignorar carpetas innecesarias
+# Ignorar archivos innecesarios
 __pycache__/
 *.pyc
+
+# Ignorar el entorno virtual
 env/
+
+# Ignorar archivos de audio y video
 *.mp3
 *.mp4
-.DS_Store
+*.wav
+
+# Archivos temporales
+*.tmp
+*.log
+

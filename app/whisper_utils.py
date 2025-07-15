@@ -2,7 +2,7 @@ import whisper
 import tempfile
 import ffmpeg
 
-model = whisper.load_model("medium")
+model = whisper.load_model("base")
 
 def convert_to_wav(input_path: str) -> str:
     output_path = tempfile.mktemp(suffix=".wav")
